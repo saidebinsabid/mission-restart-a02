@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "Login page not loading",
+    "description": "Users are unable to access the login page. The page shows a blank screen after navigating to the login URL. This issue started after the latest deployment.",
+    "customer": "Alice Johnson",
+    "priority": "Critical",
+    "status": "open",
+    "createdAt": "2026-03-01T08:30:00Z"
+  },
+  {
+    "id": 2,
+    "title": "Payment gateway timeout",
+    "description": "Customers are experiencing payment timeouts when trying to complete purchases. The issue occurs during the final checkout step and no payment is being processed.",
+    "customer": "Bob Martinez",
+    "priority": "High",
+    "status": "open",
+    "createdAt": "2026-03-01T09:15:00Z"
+  },
+  {
+    "id": 3,
+    "title": "Profile picture upload fails",
+    "description": "When users attempt to upload a new profile picture, they receive an error 413 (Payload Too Large). Even small images below 1MB are getting rejected.",
+    "customer": "Carol White",
+    "priority": "Medium",
+    "status": "open",
+    "createdAt": "2026-03-01T10:00:00Z"
+  },
+  {
+    "id": 4,
+    "title": "Email notifications not sent",
+    "description": "Automated email notifications for password resets and order confirmations are not being delivered to customers. The mail server logs show no outgoing messages.",
+    "customer": "David Brown",
+    "priority": "High",
+    "status": "open",
+    "createdAt": "2026-03-01T10:45:00Z"
+  },
+  {
+    "id": 5,
+    "title": "Dashboard charts broken",
+    "description": "The analytics charts on the admin dashboard are not rendering correctly. The data is present but the visual charts show as empty containers.",
+    "customer": "Emma Davis",
+    "priority": "Medium",
+    "status": "open",
+    "createdAt": "2026-03-01T11:30:00Z"
+  },
+  {
+    "id": 6,
+    "title": "Search returns no results",
+    "description": "The product search feature is returning zero results for all queries. Users have confirmed that the search terms match existing products in the catalog.",
+    "customer": "Frank Wilson",
+    "priority": "High",
+    "status": "open",
+    "createdAt": "2026-03-02T08:00:00Z"
+  },
+  {
+    "id": 7,
+    "title": "Password reset link expired",
+    "description": "Customers are receiving password reset emails but the links expire within minutes instead of the expected 24-hour window. Multiple users affected.",
+    "customer": "Grace Lee",
+    "priority": "Medium",
+    "status": "open",
+    "createdAt": "2026-03-02T09:20:00Z"
+  },
+  {
+    "id": 8,
+    "title": "Mobile app crashes on startup",
+    "description": "The iOS mobile app crashes immediately upon launching after the latest update (v3.2.1). Android users are unaffected. Rollback has been requested.",
+    "customer": "Henry Taylor",
+    "priority": "Critical",
+    "status": "open",
+    "createdAt": "2026-03-02T10:10:00Z"
+  },
+  {
+    "id": 9,
+    "title": "Slow page load time report",
+    "description": "Several customers have reported that product listing pages are taking over 10 seconds to load. Performance degradation started after the CDN migration last week.",
+    "customer": "Isabella Anderson",
+    "priority": "Medium",
+    "status": "open",
+    "createdAt": "2026-03-02T11:00:00Z"
+  },
+  {
+    "id": 10,
+    "title": "Order history missing",
+    "description": "Customers cannot view their past orders in the account section. The order history page loads but shows an empty list despite confirmed purchases.",
+    "customer": "James Thomas",
+    "priority": "High",
+    "status": "open",
+    "createdAt": "2026-03-03T08:30:00Z"
+  },
+  {
+    "id": 11,
+    "title": "Two-factor auth not working",
+    "description": "The SMS-based two-factor authentication codes are not being received by users. The feature was working fine until the telephony provider was switched.",
+    "customer": "Karen Jackson",
+    "priority": "Critical",
+    "status": "open",
+    "createdAt": "2026-03-03T09:45:00Z"
+  },
+  {
+    "id": 12,
+    "title": "Coupon code validation error",
+    "description": "Valid promotional coupon codes are being rejected at checkout with 'Invalid code' error. The codes are confirmed active in the admin panel.",
+    "customer": "Liam Harris",
+    "priority": "Low",
+    "status": "open",
+    "createdAt": "2026-03-03T11:15:00Z"
+  }
+]
