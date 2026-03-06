@@ -131,13 +131,6 @@ const Footer = () => {
                                     </a>
                                 </div>
                             </li>
-                            <li className="flex items-start gap-2.5">
-                                <MdDashboard className="text-violet-400 shrink-0 mt-0.5 text-base" />
-                                <div>
-                                    <p className="text-gray-300 font-medium">Assignment</p>
-                                    <p className="text-gray-400">Mission Restart — A02</p>
-                                </div>
-                            </li>
                         </ul>
                     </div>
                 </div>
